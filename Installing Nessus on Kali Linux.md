@@ -48,6 +48,8 @@ sudo dpkg -i nessus-10.x.x-debian10_amd64.deb
    Enter the following URL: https://localhost:8834/
  **Handle Security Warning**  
 - You'll see a "Your connection is not private" warning
+![image](https://github.com/user-attachments/assets/e0987644-3bbe-47f2-924c-118fbf54e7fa)
+
 - Click "Advanced" → "Proceed to localhost (unsafe)"
 *This is safe because it's a local self-signed certificate*
 
