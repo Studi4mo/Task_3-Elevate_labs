@@ -8,4 +8,7 @@ Perform a basic vulnerability assessment on a local machine using Nessus Essenti
 ## 🛠️ Tools Used
 - **Scanner**: Nessus Essentials (Free)
 - **Target IP**: 192.168.0.104
+- ![image](https://github.com/user-attachments/assets/018135f0-3daf-47b6-abb0-531fb737ee31)
+
+
 ---
