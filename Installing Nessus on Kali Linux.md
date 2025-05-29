@@ -32,6 +32,8 @@ This guide provides step-by-step instructions for installing and configuring Nes
 ### 3. Install Nessus
 - Use the following command to install the downloaded package:
 sudo dpkg -i nessus-10.x.x-debian10_amd64.deb
+![Screenshot 2025-05-29 152937](https://github.com/user-attachments/assets/4923c940-723a-4468-b248-1aec264514ba)
+
 - Start the Nessus Service
   - sudo systemctl start nessusd
   - sudo systemctl enable nessusd
