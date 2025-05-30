@@ -13,11 +13,13 @@ This guide provides step-by-step instructions for installing and configuring Nes
 ## 🚀 Installation Steps
 
 ### 1. Obtain Activation Code
+![Registration Page](https://github.com/user-attachments/assets/ccb1a710-0837-4d62-9ad8-7024953325e7)
+
 1. Visit [Nessus Essentials Registration Page](https://www.tenable.com/products/nessus/nessus-essentials)
 2. Fill in your name and email to receive the activation code
 3. You'll be redirected to the download page after registration
 
-![Registration Page](https://github.com/user-attachments/assets/ccb1a710-0837-4d62-9ad8-7024953325e7)
+![image](https://github.com/user-attachments/assets/cdbeff25-9778-44ad-bc2c-b7b9295b4afa)
 
 ---
 
