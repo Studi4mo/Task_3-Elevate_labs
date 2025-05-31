@@ -58,5 +58,7 @@ sudo dpkg -i nessus-10.x.x-debian10_amd64.deb
 **Select Product Version**  
 Choose 
 + Nessus Essentials (FREE) - For personal/home use
++ Create an account to start scanning. After logging in  Nessus will download and compile the necessary plugins. This process may take 
+some time.
 
 
