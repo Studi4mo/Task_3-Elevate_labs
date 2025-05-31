@@ -1,0 +1,46 @@
+Vulnerability Assessment Report
+Scanned Host: 192.168.31.162
+Scan Date: 30 May 2025
+Tool: Tenable Nessus
+
+Summary
+Total Findings: 21 vulnerabilities
+Severity Breakdown:
+Critical: 0
+High: 0
+Medium: 2
+Low: 0
+Informational: 19
+
+Key Risks:
+Lack of SMB signing (exposes to MITM attacks).
+Unrestricted mDNS service (potential information leakage).
+
+Overall Risk Level: Medium
+The host 192.168.31.162 shows no critical flaws but has two medium-risk vulnerabilities requiring remediation. 
+The majority of findings (19/21) are informational but reveal system details that could aid attackers in reconnaissance. 
+Enable SMB signing and restrict mDNS as top priorities, followed by authenticated scans to assess patch status.
+
+*** Medium-Severity Findings ***
+
+SMB Signing Not Required
+Plugin ID: 57608
+CVSS v3.0: 5.3
+SMB message signing is disabled, allowing man-in-the-middle (MITM) attacks or session hijacking.
+
+-----Impact: Attackers could intercept or tamper with SMB communications.-----
+
+Mitigation:
+Enable SMB signing via Group Policy:
+Computer Configuration → Policies → Windows Settings → Security Options → "Microsoft network server: Digitally sign communications (always)".
+
+mDNS Detection (Remote Network)
+Plugin ID: 12218
+CVSS v2.0: 5.0* (v3.0 unavailable)
+mDNS service is active and discoverable from remote networks.
+
+----Impact: Exposes device details (e.g., hostname, services) to unauthorized users.--------
+
+Mitigation
+Disable mDNS if not required.
+Restrict mDNS to trusted networks using firewall rules.
